@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ola Ajibola | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ola Ajibola</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-primary ms-2" href="Ola Ajibola SOC.docx" download>Download CV</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-5">
+        <div class="container">
+            <img src="WhatsApp Image 2024-12-22 at 20.44.10_8cb884ce.jpg" alt="Ola Ajibola" class="rounded-circle mb-3" width="150">
+            <h1>Ola Ajibola</h1>
+            <p>Versatile SOC Analyst | Cybersecurity Expert | Data Integration Specialist</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5"  class="fade-in py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p>
+                With over 14 years in IT and 5+ years specializing in Cybersecurity, I bring expertise in incident detection,
+                response, and threat analysis. My passion lies in leveraging tools like Splunk and QRadar to drive
+                actionable decision-making while optimizing processes to meet compliance standards like NIST, ISO 27001, and PCI DSS.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Professional Experience</h2>
+            <div class="accordion" id="experienceAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            Sr SOC Analyst, Akkodis (Aug 2023 - Present)
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            Conduct real-time analysis of security incidents through SIEM tools (Splunk, QRadar) to detect malicious activities and initiate containment, eradication, and recovery. Led initiatives improving detection accuracy by 25%.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            Cybersecurity Program Manager, Fortune Brands (Sep 2022 - Aug 2023)
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            Oversaw cybersecurity programs, streamlining incident response and regulatory compliance. Developed automation scripts to improve efficiency by 30%.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            Senior SOC Analyst, Mercedes-Benz USA (Jan 2021 - Aug 2022)
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            Enhanced defensive capabilities through red team/blue team exercises, improving detection rates by 40%. Managed global responses to security events aligned with ISO 27001 and NIST standards.
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more experiences as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Technical Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Security Tools: Splunk, QRadar, ArcSight</li>
+                <li class="list-group-item">Cloud Security: AWS, Azure, Google Cloud</li>
+                <li class="list-group-item">Threat Analysis: IDS/IPS, Malware Analysis</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Certifications</h2>
+            <ul class="list-group">
+                <li class="list-group-item">AWS Solution Architect</li>
+                <li class="list-group-item">CompTIA Security+</li>
+                <li class="list-group-item">Microsoft Azure Fundamentals</li>
+                <li class="list-group-item">Google Cybersecurity Certificate</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Ola Ajibola. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
